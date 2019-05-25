@@ -45,6 +45,7 @@ I put a speed limit vanity check under the lane change or slow down section.
 ```
 else if (my_ref_vel < speed_limit) {
             my_ref_vel += .224;
+}
 ```
 
 ### Max Acceleration (10 m/s^2) and Jerk (10 m/s^3) are not Exceeded
@@ -154,18 +155,9 @@ A really helpful resource for doing this project and creating smooth trajectorie
     git checkout e94b6e1
     ```
 
-## Editor Settings
-
-We've purposefully kept editor configuration files out of this repo in order to
-keep it as simple and environment agnostic as possible. However, we recommend
-using the following settings:
-
-* indent using spaces
-* set tab width to 2 spaces (keeps the matrices in source code aligned)
-
 ## Code Style
 
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
+Refer to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
 
 ## Call for IDE Profiles Pull Requests
